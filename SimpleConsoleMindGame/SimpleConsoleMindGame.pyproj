@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="functions\Messages.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="functions\SaveCreate.py">
       <SubType>Code</SubType>
     </Compile>

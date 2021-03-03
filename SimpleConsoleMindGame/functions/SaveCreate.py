@@ -1,7 +1,7 @@
 import shutil
 
 def save(user, level, lifes):
-    source = "save.json"
+    source = "save.yureiSave"
     target = "sv/save.yureiSave"
     with open("save.yureiSave", "a+") as save:
         save.write("{\n")
