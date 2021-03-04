@@ -7,5 +7,5 @@ def welcome(user):
 # Presentation message
 def presentation():
     print(
-        "General knowledge quiz, answer the questions that will appear in the console, each fault is equal to a life less each good answer brings you a level."
+        "General knowledge quiz, answer the questions that will appear in the console, each fault is equal to a life less each good answer brings you a level.\n\n"
         )

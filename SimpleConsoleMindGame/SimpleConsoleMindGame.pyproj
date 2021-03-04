@@ -24,6 +24,9 @@
     <Compile Include="functions\Messages.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="functions\QuestionsModel.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="functions\SaveCreate.py">
       <SubType>Code</SubType>
     </Compile>
