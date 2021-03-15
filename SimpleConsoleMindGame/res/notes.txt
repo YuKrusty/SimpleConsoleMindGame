@@ -1,0 +1,13 @@
+clear = -/-
+
+Ajouter un message de prévention : --
+	Ex: Pensez à prendre des notes, notez ou autre...
+
+Modifier système de question : --
+
+Enigme : --
+	- Num question ?
+	- 1st response ?
+	- last response ?
+	- information about the programe ?
+
