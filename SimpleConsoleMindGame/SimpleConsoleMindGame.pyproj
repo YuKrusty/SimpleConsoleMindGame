@@ -4,7 +4,8 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d07349e9-7e00-43fe-bdf9-79fcff3eea1f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SimpleConsoleMindGame.py</StartupFile>
+    <StartupFile>
+    </StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

@@ -12,10 +12,18 @@ level=0
 welcome(user)
 presentation()
 
-text = "test"
-answer1 = "test1"
-answer2 = "test2"
-
+# Question 1
+text = "What's the name of the LinkIt developer ?"
+answer1 = "Maxime"
+answer2 = "Thomas"
 model(text, answer1, answer2)
+if text!="1":
+    while text!="1":
+        lifes=lifes-1
+        print("\nYou lost 1 life.")
+        input("\nRetry : ")
+else:
+    level=level+1
+    print("\nGG! You won 1 level. Next question !")
 
 save(user, level, lifes)
