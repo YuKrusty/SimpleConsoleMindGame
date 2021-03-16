@@ -4,8 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>d07349e9-7e00-43fe-bdf9-79fcff3eea1f</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>
-    </StartupFile>
+    <StartupFile>SimpleConsoleMindGame.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,13 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="functions\Messages.py">
+    <Compile Include="functions\messages.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="functions\QuestionsModel.py">
+    <Compile Include="functions\questions_model.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="functions\SaveCreate.py">
+    <Compile Include="functions\save_create.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="SimpleConsoleMindGame.py" />

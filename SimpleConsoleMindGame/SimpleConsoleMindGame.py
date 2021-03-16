@@ -1,9 +1,9 @@
 # IMPORT
 import sys
 import shutil
-from functions.Messages import*
-from functions.QuestionsModel import*
-from functions.SaveCreate import*
+from functions.messages import*
+from functions.questions_model import*
+from functions.save_create import*
 
 user=input("Name : ")
 lifes=5
@@ -21,9 +21,8 @@ if text!="1":
     while text!="1":
         lifes=lifes-1
         print("\nYou lost 1 life.")
-        input("\nRetry : ")
-else:
-    level=level+1
-    print("\nGG! You won 1 level. Next question !")
+        text = input("\nRetry : ")
+level=level+1
+print("\nGG! You won 1 level. Next question !")
 
 save(user, level, lifes)
